@@ -1,0 +1,131 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("./font.css");
+
+/* Google Map Controls */
+
+.gmnoprint .gm-style-mtc:first-of-type button {
+  border-radius: 12px 0 0 12px !important;
+}
+.gmnoprint .gm-style-mtc:last-of-type button {
+  border-radius: 0 12px 12px 0 !important;
+}
+.gm-style-mtc button {
+  font-family: "Poppins" !important;
+  font-size: 14px !important;
+}
+.gm-style-mtc ul li label {
+  font-family: "Poppins";
+  font-size: 14px !important;
+}
+.gm-fullscreen-control {
+  border-radius: 12px !important;
+}
+.gm-fullscreen-control img {
+  width: 14px !important;
+}
+.gm-svpc {
+  border-radius: 12px !important;
+}
+.gm-svpc img {
+  height: 24px !important;
+}
+.gmnoprint img {
+  width: 12px !important;
+}
+.gmnoprint * {
+  border-radius: 12px !important;
+}
+.gm-style-mot {
+  font-size: 17px !important;
+}
+/* Google Map Controls */
+
+/* Scrollbar */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 8px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #efefef;
+  border-radius: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #7c6c6c;
+  border-radius: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #525252;
+}
+/* Scrollbar */
+
+/* Phone Input */
+
+.PhoneInputCountry {
+  margin-right: 0 !important;
+  padding: 10px;
+  border-width: 1px 0 1px 1px !important;
+  border-radius: 8px 0 0 8px;
+  border-color: #e6e6e6 !important;
+}
+
+[type="tel"] {
+  border: 1px solid #e6e6e6 !important;
+  outline: none !important;
+  --tw-shadow: none;
+  background-color: transparent;
+  border-radius: 0 8px 8px 0;
+  color: #0a0a0a;
+  font-size: 0.875rem; /* 14px */
+  font-weight: 500;
+  line-height: 1.25rem; /* 20px */
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 100%;
+}
+[type="tel"]:focus {
+  border-color: #29a38b !important;
+}
+[type="tel"]:read-only {
+  border-color: #e6e6e6 !important;
+}
+
+/* Phone Input */
+
+/* Widget Layout */
+
+/* Customize dragging color */
+
+.react-grid-item.react-grid-placeholder {
+  background: #29A38B !important;
+  border-radius: 8px !important;
+}
+
+/* Widget Layout */
+
+/* Terminal */
+
+.terminal {
+  padding: 16px;
+  height: "100%";
+}
+.xterm-viewport {
+  border-radius: 0 0 8px 8px;
+  scrollbar-width: none;
+}
+
+/* Terminal */
+
+@media (max-width: 397px) {
+  .create-inspection-btn {
+    min-width: 100%;
+  }
+}
+
+.scrollbar-none {
+  scrollbar-width: none;
+}
