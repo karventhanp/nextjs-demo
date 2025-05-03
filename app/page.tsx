@@ -1,9 +1,10 @@
-export const dynamic = 'force-dynamic';
 
-import Home from "@/components/Home";
+export const Home = () => {
+  return (
+    <div className="h-full w-full flex justify-center items-center">
+     My Dashboard
+    </div>
+  );
+}
 
-const MainRoot = () => {
-  return <Home />;
-};
-
-export default MainRoot;
+export default Home;
